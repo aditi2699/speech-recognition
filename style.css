@@ -1,0 +1,29 @@
+body {
+    background: #05012b;
+    margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 768px;
+    margin: auto;
+    padding: 25px;
+  } 
+ p{
+    color: #f3f3f3;
+  };
+
+  #transcript{
+       margin-top: 15px;
+       background: #3d0349;
+       color: #f3f3f3;
+       padding: 15px;
+       min-height: 500px;
+       overflow: scroll;
+    };
+    
+    .command {
+        color: #ffceff;
+    };
